@@ -26,7 +26,7 @@ public abstract class BookFactory implements Buyable {
     public List<Book> removeBooks(int publisherYear) {
 
         List<Book> temp = new ArrayList<Book>();
-        //Because it's LinkedList So we can not move freely on it!
+
         Iterator<Book> iterator = books.iterator();
 
         while (iterator.hasNext()) {
